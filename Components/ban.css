@@ -1,0 +1,98 @@
+
+
+#banner{
+	 height: 400px;
+	 background-size: cover;
+	 background-position: top;
+	 position: relative;
+}
+
+#banner img{
+	height: 240px;
+	padding-top:20px;
+	padding-left:30px;
+}
+
+#banner h1{
+	font-family: Montserrat;
+	color: rgb(221 226 225);
+	font-size: 28px;
+	padding-top: 20px;
+	font-weight: 300;
+}
+
+#conjunto{
+	padding-top: 40px;
+}
+
+.btn-light{
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+	border-color: rgba(0,0,0,0);
+	font-family: Montserrat;
+	font-size: 12px;
+	padding:5px 14px;
+	margin:0 2px 0 2px;
+	transition: background-color 0.3s ease;
+}
+
+.btn-light:hover {
+	background-color: rgba(23,184,166,0.5);
+	color: white;
+	border-color: rgba(0,0,0,0);
+
+}
+
+#barra{
+	position: absolute;
+	top: 20px;
+	right: 80px;
+
+}
+
+#vasobanner{
+	width: 100%;
+    margin: 0 auto;
+    padding:0;
+    
+}
+
+#vasobanner img{
+	position:absolute;
+	right:8%;
+	bottom: -30%;
+	max-width: 100%;
+    height: auto;
+    padding:0;
+	
+
+}
+
+@media screen and (max-width: 1000px) {
+  #vasobanner img {
+    width: 35%;
+    position:absolute;
+    right:5%;
+    bottom: -23%;
+}
+}
+
+@media screen and (max-width: 746px) {
+  #vasobanner img {
+    width: 30%;
+    position:absolute;
+    right:5%;
+    bottom: -15%;
+}
+  .btn-light{
+	font-size: 9px;
+	padding:5px 14px;
+}	
+  #barra{
+	position: absolute;
+	top: 20px;
+	right: 13px;
+
+
+}
+

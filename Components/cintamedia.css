@@ -1,0 +1,44 @@
+#cinta {
+    height: 300px;
+    color: black;
+    margin: 0;
+    padding: 20px 20px;
+    box-shadow: 2px 3px 4px 0px rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#cinta img{
+	height:60px;
+	padding-top: 20px
+	
+}
+
+
+#cinta h2{
+	color:white;
+	font-family: Montserrat;
+	font-weight: 300;
+	font-size: 24px;
+	padding-top: 50px
+	
+}
+
+
+#cinta p{
+	color:white;
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 15px;
+	padding-top: 50px;
+		
+}
+
+@media screen and (max-width: 746px) {
+  #cinta h2{
+	font-size: 18px;
+      
+}
+}
+

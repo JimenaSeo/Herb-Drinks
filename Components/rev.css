@@ -1,0 +1,41 @@
+.revw{
+	height: 300px;
+	width: 250px;
+	margin-top: 30px;
+	position: relative;
+}
+
+.revw img{
+	height: 80px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.revw p{
+	font-size: 14px;
+    font-family: Montserrat;
+    opacity: 0.7;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.revw h2{
+	font-size: 12px;
+    font-family: Sora;
+    margin: 0;
+    margin-top: 15px;
+}
+
+
+.revw i{
+	font-size: 16px;
+    opacity: 0.8;
+   
+}
+
+
+
+
+
+

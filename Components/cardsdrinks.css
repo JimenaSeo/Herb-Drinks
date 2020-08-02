@@ -1,0 +1,50 @@
+#corpe h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 60px;
+	font-weight: 400;
+	
+}
+
+.controls-top a{
+    color: rgba(0,0,0,0.3);
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.btn-floating:hover {
+	 color: rgba(0,0,0,0.5);
+}
+
+.card-body h4 {
+	font-family: Sora;
+    font-size: 28px;
+    margin: 0;
+    color: rgba(0,0,0,0.7);
+}
+
+.card-body p {
+	font-family: Montserrat;
+    margin-top: 8px;
+    color: rgba(0,0,0,0.5);
+
+}
+
+.btn-drink{
+	background-color: rgba(0,0,0,0.0);
+	color: rgba(0,0,0,0.8);
+	border-color: rgba(0,0,0,0.4);
+	font-family: Montserrat;
+	font-size: 14px;
+	margin-top: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.btn-drink:hover {
+	background-color: rgba(23,184,166,0.8);
+	color: white;
+	font-family: Montserrat;
+	font-weight: 500;
+	border-color: rgba(0,0,0,0);
+}
